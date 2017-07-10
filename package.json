@@ -1,0 +1,30 @@
+{
+  "name": "FlyBot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "create": "claudia create --region us-east-1 --api-module bot --profile claudia",
+    "update": "claudia update --profile claudia"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Keydex/FlyBot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Keydex/FlyBot/issues"
+  },
+  "homepage": "https://github.com/Keydex/FlyBot#readme",
+  "devDependencies": {
+    "claudia": "^2.14.1"
+  },
+  "dependencies": {
+    "claudia-bot-builder": "^2.15.0",
+    "greeting": "^1.0.6",
+    "node-fetch": "^1.7.1"
+  }
+}

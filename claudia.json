@@ -1,0 +1,11 @@
+{
+  "lambda": {
+    "role": "FlyBot-executor",
+    "name": "FlyBot",
+    "region": "us-east-1"
+  },
+  "api": {
+    "id": "uzxp46de57",
+    "module": "bot"
+  }
+}
